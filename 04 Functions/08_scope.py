@@ -13,21 +13,21 @@ def greet(name):
 greet("Jeffry")
 
 
-def sendEmail(name):
+def send_email(name):
     message = "b"
     print(message)
 
 
-sendEmail("Jeffry")
+send_email("Jeffry")
 
 
 print(message)
 
 
-def sendMessage(name):
+def send_message(name):
     global message
     message = "c"
     print(message)
 
 
-sendMessage("Jeffry")
+send_message("Jeffry")

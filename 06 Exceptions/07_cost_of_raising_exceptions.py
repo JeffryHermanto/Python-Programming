@@ -3,26 +3,26 @@
 from timeit import timeit
 
 code1 = """
-def calculateXfactor(age):
+def calculate_x_factor(age):
     if age <= 10:
         raise ValueError("Age cannot be 0 or less.")
     return 10 / age
 
 
 try:
-    calculateXfactor(-1)
+    calculate_x_factor(-1)
 except ValueError as error:
     pass
 """
 
 code2 = """
-def calculateXfactor(age):
+def calculate_x_factor(age):
     if age <= 10:
         return None
     return 10 / age
 
 
-xfactor = calculateXfactor(-1)
+xfactor = calculate_x_factor(-1)
 if xfactor == None:
     pass
 """

@@ -5,22 +5,22 @@ from pprint import pprint
 # Find the most repeated character in this text
 sentence = "This is a common interview question"
 
-charFrequency = {}
+char_frequency = {}
 
 for char in sentence:
-    if char in charFrequency:
-        charFrequency[char] += 1
+    if char in char_frequency:
+        char_frequency[char] += 1
     else:
-        charFrequency[char] = 1
+        char_frequency[char] = 1
 
-pprint(charFrequency)
+pprint(char_frequency)
 print("")
 
-sortedCharFrequency = sorted(
-    charFrequency.items(),
+sorted_char_frequency = sorted(
+    char_frequency.items(),
     key=lambda kv: kv[1],
     reverse=True)
 
-print(sortedCharFrequency)
+print(sorted_char_frequency)
 print("")
-print("The most repeated character:", sortedCharFrequency[0])
+print("The most repeated character:", sorted_char_frequency[0])

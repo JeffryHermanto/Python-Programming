@@ -4,28 +4,28 @@
 # or
 # not
 
-highIncome = True
-goodCredit = True
+high_income = True
+good_credit = True
 
-if highIncome and goodCredit:
+if high_income and good_credit:
     print("Eligible")
 else:
     print("Not eligible")
 
 print("---------------------")
 
-highIncome = False
-goodCredit = True
+high_income = False
+good_credit = True
 
-if highIncome or goodCredit:
+if high_income or good_credit:
     print("Eligible")
 else:
     print("Not eligible")
 
 print("---------------------")
 
-highIncome = False
-goodCredit = True
+high_income = False
+good_credit = True
 student = True
 
 if not student:
@@ -35,11 +35,11 @@ else:
 
 print("---------------------")
 
-highIncome = False
-goodCredit = True
+high_income = False
+good_credit = True
 student = False
 
-if (highIncome or goodCredit) and not student:
+if (high_income or good_credit) and not student:
     print("Eligible")
 else:
     print("Not eligible")

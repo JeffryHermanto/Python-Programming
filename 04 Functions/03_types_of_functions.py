@@ -6,9 +6,9 @@ def greet(name):
 
 
 # 2 - Return a value
-def getGreeting(name):
+def get_greeting(name):
     return f"Hi {name}"
 
 
-message = getGreeting("Jeffry")
+message = get_greeting("Jeffry")
 print(message)

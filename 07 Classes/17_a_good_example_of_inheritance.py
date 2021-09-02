@@ -29,12 +29,12 @@ class NetworkStream(Stream):
         print("Reading data from a network")
 
 
-fileStream = FileStream()
-fileStream.open()
-print(fileStream.opened)
-fileStream.read()
+file_stream = FileStream()
+file_stream.open()
+print(file_stream.opened)
+file_stream.read()
 
-networkStream = NetworkStream()
-networkStream.open()
-print(networkStream.opened)
-networkStream.read()
+network_stream = NetworkStream()
+network_stream.open()
+print(network_stream.opened)
+network_stream.read()

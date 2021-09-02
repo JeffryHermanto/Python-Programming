@@ -1,10 +1,10 @@
 # xxargs
 
-def saveUser(**user):
+def save_user(**user):
     print(user)
     print(user["id"])
     print(user["name"])
     print(user["age"])
 
 
-saveUser(id=1, name="Jeffry", age=43)
+save_user(id=1, name="Jeffry", age=43)

@@ -1,7 +1,7 @@
 # Arguments
 
-def greet(firstName, lastName):
-    print(f"Hi {firstName} {lastName}")
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
     print('Welcome aboard')
 
 

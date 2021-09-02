@@ -1,9 +1,9 @@
 # Short-circuit Evaluation
 
-highIncome = True
-goodCredit = True
+high_income = True
+good_credit = True
 student = False
 
 # As soon as one of these arguments is false, the evaluation stops
-if highIncome and goodCredit and not student:
+if high_income and good_credit and not student:
     print("Eligible")

@@ -1,6 +1,6 @@
 # Exercise
 
-def fizzBuzz(input):
+def fizz_buzz(input):
     if (input % 3 == 0) and (input % 5 == 0):
         return "FizzBuzz"
     if input % 5 == 0:
@@ -10,7 +10,7 @@ def fizzBuzz(input):
     return input
 
 
-print(fizzBuzz(3))
-print(fizzBuzz(5))
-print(fizzBuzz(15))
-print(fizzBuzz(7))
+print(fizz_buzz(3))
+print(fizz_buzz(5))
+print(fizz_buzz(15))
+print(fizz_buzz(7))

@@ -4,9 +4,9 @@ first = "Jeffry"
 last = "Hermanto"
 
 # Concat
-fullName = first + " " + last
-print(fullName)
+full_name = first + " " + last
+print(full_name)
 
 # Formatted
-fullName = f"{first} {last}"
-print(fullName)
+full_name = f"{first} {last}"
+print(full_name)

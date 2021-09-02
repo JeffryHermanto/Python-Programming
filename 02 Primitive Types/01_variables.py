@@ -1,17 +1,17 @@
 # Variables
 
 # Integer
-studentsCount = 1000
-print(studentsCount)
+students_count = 1000
+print(students_count)
 
 # Float
 rating = 4.99
 print(rating)
 
 # Boolean
-isPublished = True
-print(isPublished)
+is_published = True
+print(is_published)
 
 # String
-courseName = "Python Programming"
-print(courseName)
+course_name = "Python Programming"
+print(course_name)
